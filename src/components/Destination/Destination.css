@@ -1,15 +1,12 @@
-/* .destination{
 
-} */
 .destination_content{
     display: grid;
     grid-template-columns: 380px 1fr;
     grid-gap: 80px;
 }
-/* .destination_search{
-    
-} */
-.destination_form{
+
+.destination_form,
+.location_wrapper {
     background: #EFEFEF;
     padding: 20px;
     border-radius: 10px;
@@ -30,7 +27,8 @@
     outline: 0;
     font-size: 16px;
 }
-.destination_form .btn_primary{
+.destination_form .btn_primary,
+.location_wrapper .btn_primary{
     border: 0;
     width: 100%;
     display: inline-block;

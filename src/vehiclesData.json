@@ -2,21 +2,29 @@
     {
         "id" : 0,
         "name" :"Bike",
-        "icon" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDZdR6LDBZD7ppUy3By-4WQZefnohGsF-1toVfqqyMVF6Yz37PcT-ZP2KDCqAwMiLiKxc&usqp=CAU"
+        "icon" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDZdR6LDBZD7ppUy3By-4WQZefnohGsF-1toVfqqyMVF6Yz37PcT-ZP2KDCqAwMiLiKxc&usqp=CAU",
+        "seat" :[2,1,3],
+        "seatRate" : 20
     },
     {
         "id" : 1,
         "name" :"Car",
-        "icon" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUgNMUMQNxSJ6O5LF_6k9Mb5kWRwCI8NMf8A&usqp=CAU"
+        "icon" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUgNMUMQNxSJ6O5LF_6k9Mb5kWRwCI8NMf8A&usqp=CAU",
+        "seat" :[4,2,6],
+        "seatRate" : 25
     },
     {
         "id" : 2,
         "name" :"Bus",
-        "icon" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEXASf2lGc8ZuPSSMWTljND4L_zc28pCJQyg&usqp=CAU"
+        "icon" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEXASf2lGc8ZuPSSMWTljND4L_zc28pCJQyg&usqp=CAU",
+        "seat" :[5,7,9],
+        "seatRate" : 18
     },
     {
         "id" : 3,
         "name" :"Train",
-        "icon" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGiUOUERKzRSyIoEFwSNMMVEBYq__O0xNA5w&usqp=CAU"
+        "icon" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGiUOUERKzRSyIoEFwSNMMVEBYq__O0xNA5w&usqp=CAU",
+        "seat" :[3,4,6],
+        "seatRate" : 22
     }
 ]

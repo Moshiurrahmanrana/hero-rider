@@ -1,7 +1,15 @@
 import React, { useState } from 'react';
+import { useParams } from 'react-router';
 import './Destination.css';
+import vehicleData from '../../vehiclesData.json';
+import DestinationCard from '../DestinationCard/DestinationCard';
+
 const Destination = () => {
     const [searchVisible, setSearchVisible] = useState(true);
+    const [pickFrom, setPickFrom] = useState('Mirpur 1');
+    const [pickTo, setPickTo] = useState('Dhanmondi');
+    const {id} = useParams();
+    const currentVehicle = vehicleData.find(vehicle => vehicle.id == +id);
 
     const handleSearch = () =>{
         setSearchVisible(false);
@@ -15,17 +23,26 @@ const Destination = () => {
                             searchVisible && <from className="destination_from">
                             <div className="input_group">
                                 <label htmlFor="pickFrom">Pick From</label>
-                                <input type="text" value="Mirpur 1" id="pickFrom"/>
+                                <input onChange={(e) => setPickFrom(e.target.value)} type="text" placeholder="Mirpur 1" id="pickFrom"/>
                             </div>
                             <div className="input_group">
                                 <label htmlFor="pickTo">Pick To</label>
-                                <input type="text" value="Dhanmondi" id="pickTo"/>
+                                <input onChange={(e) => setPickTo(e.target.value)} type="text" placeholder="Dhanmondi" id="pickTo"/>
                             </div>
                             <input className="btn_primary" onClick={handleSearch} type="submit" value="Search"/>
                         </from>
                         }
                         {
-                            !searchVisible && <h3>Searched</h3>
+                            !searchVisible && <div className="location">
+                                <div className="location_wrapper">
+                                    <h2 className="location_from">{pickFrom}</h2>
+                                    <h2 className="location_to">{pickTo}</h2>
+                                    {
+                                        currentVehicle.seat.map((seat, ind) => <DestinationCard key={ind} vehicle={currentVehicle} seat={seat}/>)
+                                    }
+                                    <button onClick={() => setSearchVisible(true)} className="btn_primary">Back</button>
+                                </div>
+                            </div>
                         }
                    </div>
                    <div className="destination_map-box">
