@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 0,
+        "name" :"Bike",
+        "icon" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDZdR6LDBZD7ppUy3By-4WQZefnohGsF-1toVfqqyMVF6Yz37PcT-ZP2KDCqAwMiLiKxc&usqp=CAU"
+    },
+    {
+        "id" : 1,
+        "name" :"Car",
+        "icon" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUgNMUMQNxSJ6O5LF_6k9Mb5kWRwCI8NMf8A&usqp=CAU"
+    },
+    {
+        "id" : 2,
+        "name" :"Bus",
+        "icon" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEXASf2lGc8ZuPSSMWTljND4L_zc28pCJQyg&usqp=CAU"
+    },
+    {
+        "id" : 3,
+        "name" :"Train",
+        "icon" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGiUOUERKzRSyIoEFwSNMMVEBYq__O0xNA5w&usqp=CAU"
+    }
+]

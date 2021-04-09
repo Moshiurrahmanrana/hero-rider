@@ -1,0 +1,15 @@
+.vehicle_card{
+   background: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   display: block;
+   text-decoration: none;
+   color: initial;
+   text-align: center;
+}
+.vehicle_icon{
+    height: 100px;
+}
+.vehicle_name{
+
+}

@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.container{
+ width: 94%;
+ max-width: 1170px;
+ margin: 0 auto;
+}
+.btn_primary{
+  display: inline-block;
+  color: white;
+  background-color: #FF6E40;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+}

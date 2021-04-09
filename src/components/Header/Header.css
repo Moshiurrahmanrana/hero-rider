@@ -1,0 +1,22 @@
+.header{
+    padding: 25px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_img--box{}
+.logo_img{
+    height: 30px;
+}
+.navbar_nav{}
+.nav_link{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    
+}
